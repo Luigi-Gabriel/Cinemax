@@ -1,0 +1,176 @@
+body{
+    font-family: "Public Sans", serif;
+    
+
+}
+
+
+.cabeca{
+    background-color: #242836;
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+    align-items: center;
+    
+    
+    
+}
+
+.logo{
+    font-size: 20px;
+    color: red;
+}
+
+
+
+.menu{
+    
+    display: flex;
+
+}
+
+.menu li a {
+    padding: 15px;
+}
+
+
+.contaner{
+    background-color: #12141D;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+p {
+    font-size: 1.1rem;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+.browse{
+    background-color: #E63946;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.browse:hover {
+    background-color: green;
+}
+
+.botao:hover{
+    background-color: red;
+    border-radius: 5px;
+}
+
+.exibicao{
+    background-color: #1e293b;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    
+}
+
+h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.movies {
+    display: flex;
+    justify-content: center;
+    
+    gap: 20px;
+}
+
+.movie-card {
+    background-color: #111827;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.poster {
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.poster1{
+    background-image: url(http://br.web.img3.acsta.net/medias/nmedia/18/92/91/32/20224832.jpg);
+}
+
+.poster2{
+    background-image: url(https://br.web.img3.acsta.net/c_300_300/img/b1/35/b1351babe7a777b7a97eded3db356990.jpg)
+
+}
+
+.poster3{
+    background-image: url(https://br.web.img3.acsta.net/pictures/210/299/21029996_20130821205722213.jpg);
+}
+
+.ingressos{
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #E63946;
+
+}
+
+.ingressos:hover{
+    background-color: green;
+}
+
+.Sobre{
+    background-color: #303857;
+    padding: 30px;
+    
+    justify-content: center;
+    
+   
+    margin: 0;
+
+    
+}
+
+
+.prince{
+ text-align: center;
+}
+
+.rodape{
+    margin: 0;
+    padding: 0;
+    background-color: black; /* Cor de fundo do site */
+    color: white;
+}
+
+footer {
+    
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: black;
+}
+
